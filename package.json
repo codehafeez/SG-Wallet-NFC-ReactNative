@@ -1,0 +1,35 @@
+{
+  "name": "SG_Wallet",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "buffer": "^5.2.1",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-nfc-manager": "^1.2.2",
+    "react-native-qrcode": "^0.2.7",
+    "react-native-scrollable-tab-view": "^0.10.0",
+    "react-native-simple-dialogs": "^1.1.0",
+    "react-native-table-component": "^1.2.0",
+    "react-native-uuid": "^1.4.9",
+    "react-native-uuid-generator": "^5.0.0",
+    "react-navigation": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/runtime": "7.4.5",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
